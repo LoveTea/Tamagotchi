@@ -12,7 +12,7 @@ int main() {
 	std::cout << "Как зовут вашу кошку?\n";
 	std::cin >> name;
 
-	Cat murka(name, 5);
+	Cat murka(name);
 	Render render;
 	render.start(murka);
 	
